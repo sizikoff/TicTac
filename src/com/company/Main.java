@@ -23,7 +23,7 @@ public class Main {
         if (a == 1){
             aiTurn();
         }
-        if (a ==2){
+        else {
             humanTurn();
         }
         printMap();
