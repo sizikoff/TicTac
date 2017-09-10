@@ -16,6 +16,16 @@ public class Main {
 
     public static void main(String[] args) {
         initMap();
+        System.out.println("Кто начнет");
+        System.out.println("1-я");
+        System.out.println("2-комп");
+        int a = sc.nextInt();
+        if (a == 1){
+            aiTurn();
+        }
+        if (a ==2){
+            humanTurn();
+        }
         printMap();
         while (true) {
             humanTurn();
